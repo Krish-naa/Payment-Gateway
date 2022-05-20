@@ -71,6 +71,14 @@ header {
       );
   /*     background-size: 6px 6px; */
   }
+
+  .footer{
+    color: black;
+    background-color: honeydew;
+    text-align:center;
+    margin:0px 10px;
+    padding:40px 30px;
+  }
 /*resposive*/
 
 @media (max-width:600px) {
@@ -157,7 +165,7 @@ body {
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    /**float: right;**/
     padding: 28px 20px;
     position: relative;
     user-select: none;
